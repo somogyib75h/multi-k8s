@@ -1,4 +1,4 @@
-docker build -t somogyib75/multi-client:latest -t somogyib75/multi-client:$SHA-f ./client/Dockerfile ./client
+docker build -t somogyib75/multi-client:latest -t somogyib75/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t somogyib75/multi-server:latest -t somogyib75/multi-server:$SHA -f ./server/Dockerfile ./server
 docker build -t somogyib75/multi-worker:latest -t somogyib75/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
